@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(180, 173, 173);
+}
+.cabecalho{
+	background: green;
+	padding: 30px  ;
+}
+
+
+.menu{
+
+    text-align: right;
+}
+
+.menu li {
+	display: inline;
+	margin:  10px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+ }
+.menu a:hover{
+        color: yellow;
+        text-decoration: underline;
+    }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="cabecalho">
+
+    <div>
+         <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <main class="principal">
+        <section class="secao1">
+
+            <h1 class=" titulo-section1">
+                O que é Gasto Energético Basal
+            </h1>
+
+            <div class="texto-basal">
+                <p>A princípio vamos entender melhor o que é o Gasto Energético Basal (GEB), ou Taxa Metabólica Basal  (TMB) como também é chamado. Nada mais é que a quantidade mínima de energia (em kcal) necessária para que nosso corpo mantenha seus  processos vitais em funcionamento, como a respiração, a circulação, o metabolismo celular e a conservação de temperatura corporal. 
+
+                    Esse gasto corresponde a aproximadamente 60 a 75% do gasto energético diário total. O restante refere-se ao gasto vindo do efeito térmico do exercício físico, o efeito térmico dos alimentos que consumimos e da termogênese facultativa (adaptações às variações de temperatura que podem modificar o gasto energético).
+                    
+                    Visto isso, para que nosso organismo se mantenha em funcionamento adequado e sem prejuízos, a alimentação deve ser suficiente para atender às demandas de energia do GEB.</p>
+            </div>
+                </section>
+           
+            
+        <section class="secao2">
+            <div class="container">
+
+              
+
+                     <h1 class=" titulo-section2">
+                          Calculadora de GEB 
+                     </h1>
+                    
+
+                     <div class="divGenero">
+                      <label for="genero">Gênero</label>
+
+                      <select id="genero" class="genero" required >
+                        <option value="Homem">Homem</option>
+                        <option value="Mulher">Mulher</option>
+                    </select>
+
+                     </div>
+    
+                    
+
+                     <div class="divAltura">
+                        <label for="altura">Altura (M)</label>
+                        <input type="number" id="altura" />
+                      </div>
+                      <div class="divPeso">
+                        <label for="peso">Peso (KG)</label>
+                        <input type="number" id="peso" />
+                      </div>
+
+                      <div class="divIdade">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="peso" />
+                      </div>
+                  
+                      <div class="divCalc">
+                        <button onclick="calcIMC()">Calcular</button>
+                      </div>
+                      
+                      <span id="resultado"></span>
+                    </main>
+
+            </div>
+        </section>
+            
+
+
+    </main>
+    <footer class="footer">
+		<p class="copyright">&copy; Copyright Charles Dev - 2023</p>
+    </footer>
+    <script src="Js/calculo.js"></script>
+
+</body>
+</html>

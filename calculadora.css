@@ -1,0 +1,44 @@
+
+.genero{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 10%;
+    border-radius: 10px;
+	color: black;
+    
+}
+.titulo{
+	color: white;
+}
+
+.divAltura, .divPeso, .divCalc, .divIdade, .divGenero{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, button, select {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  button {
+    cursor: pointer;
+    background-color: #ff00cc;
+    color: white;
+  }
+  .container{
+	margin-top: 50px;
+	margin-bottom: 180px;
+	width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+	background: rgb(111, 0, 255);
+	color: white;
+  }
