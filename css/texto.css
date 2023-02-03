@@ -1,18 +1,19 @@
-.titulo-section1 {
+.titulo-section1, .titulo-section3 {
     font-size: 3rem;
 	margin: 15px 0 15px 0;
     margin-bottom: 30px;
     
 }
-.texto-basal{
-    width: 35%;
+.texto-basal, .texto-imc{
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
      
  }
  .ptexto{
      margin-top: 15px;
-     line-height: 1.5;
+     line-height: 1.8;
+font-family: 'Open Sans', sans-serif;
  }
  .ptexto::selection{
      background-color: rgb(128, 0, 255);

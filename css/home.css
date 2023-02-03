@@ -1,17 +1,18 @@
 body{
     background-color: rgb(207, 221, 231);
 }
+
 .cabecalho{
-	background: rgb(195, 223, 234);
+	background: rgb(142, 206, 230);
 	padding: 30px  ;
 }
 
 
 
 
-.secao2{
+.secao2,.secao4{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     text-align: center;
 }
 
@@ -34,7 +35,14 @@ body{
     color: bl;
  }
 .menu a:hover{
-        color: rgb(238, 177, 186);
+        color: green;
         text-decoration: underline;
+    }
+
+    .principal{
+        display: flex;
+        margin-top: 90px;
+        
+
     }
 

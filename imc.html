@@ -20,8 +20,8 @@
     <div>
          <nav class="menu">
             <ul>
-                <li><a href="#cbasal">Taxa metabólica basal </a></li>
-                <li><a href="imc.html">Calculadora IMC</a></li>
+                <li><a href="index.html">Taxa metabólica basal </a></li>
+                <li><a href="#cimc">Calculadora IMC</a></li>
             </ul>
         </nav>
     </div>
@@ -33,13 +33,13 @@
 
             
 
-            <div class="texto-basal">
-              <h1 class="titulo-section1">O que é Gasto Energético Basal</h1>
-                <p class="ptexto">A princípio vamos entender melhor o que é o Gasto Energético Basal (GEB), ou Taxa Metabólica Basal  (TMB) como também é chamado. Nada mais é que a quantidade mínima de energia (em kcal) necessária para que nosso corpo mantenha seus  processos vitais em funcionamento, como a respiração, a circulação, o metabolismo celular e a conservação de temperatura corporal. 
+            <div class="texto-imc">
+              <h1 class="titulo-section1">O que é Calculo de IMC</h1>
+                <p class="ptexto">IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
 
-                    Esse gasto corresponde a aproximadamente 60 a 75% do gasto energético diário total. O restante refere-se ao gasto vindo do efeito térmico do exercício físico, o efeito térmico dos alimentos que consumimos e da termogênese facultativa (adaptações às variações de temperatura que podem modificar o gasto energético).
-                    
-                    Visto isso, para que nosso organismo se mantenha em funcionamento adequado e sem prejuízos, a alimentação deve ser suficiente para atender às demandas de energia do GEB.</p>
+                  O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                  
+                  Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
             </div>
                 </section>
            
@@ -49,15 +49,15 @@
 
               
 
-                     <h1 id="cbasal" class=" titulo-section2">
-                          Calculadora de GEB 
+                     <h1 id="cimc" class=" titulo-section2">
+                          Calculadora de IMC 
                      </h1>
                     
 
                      <div class="divGenero">
-                      <label for="genero">Gênero</label>
+                      <label for="generoimc">Gênero</label>
 
-                      <select id="genero" class="genero" required >
+                      <select id="generoimc" class="genero" required >
                         <option value="Homem">Homem</option>
                         <option value="Mulher">Mulher</option>
                     </select>
@@ -68,24 +68,25 @@
 
                       <div class="divAltura">
                         <label for="altura">Altura (M)</label>
-                        <input type="number" id="altura" />
+                        <input type="number" id="alturaimc" />
                       </div>
 
                       <div class="divPeso">
                         <label for="peso">Peso (KG)</label>
-                        <input type="number" id="peso" />
+                        <input type="number" id="pesoimc" />
                       </div>
 
                       <div class="divIdade">
                         <label for="idade">Idade</label>
-                        <input type="number" id="idade" />
+                        <input type="number" id="idadeimc" />
                       </div>
                   
                       <div class="divCalc">
-                        <button onclick="calcBasal()">Calcular</button>
+                        <button onclick="calcImc()">Calcular</button>
                       </div>
                       
-                      <span id="resultado"></span>
+                      <span id="resultadoimc"></span>
+                      <span id="imcr"></span>
                     </main>
 
             </div>
@@ -104,7 +105,6 @@
     <footer class="footer">
 		<p class="copyright">&copy; Copyright Charles Dev - 2023</p>
     </footer>
-    <script src="Js/calculo.js"></script>
     <script src="Js/imc.js"></script>
 
 </body>
