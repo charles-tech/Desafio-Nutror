@@ -1,35 +1,14 @@
 body{
-    background-color: rgb(180, 173, 173);
+    background-color: rgb(207, 221, 231);
 }
 .cabecalho{
-	background: green;
+	background: rgb(195, 223, 234);
 	padding: 30px  ;
 }
 
-.titulo-section1 {
-    font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 30px;
-    margin-bottom: 30px;
-	color: black;
-    font-weight: bold;
-    
-}
-.texto-basal{
-    font-size: 20px;
-    text-align: center;
-}
-.titulo-section2{
-    font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 30px;
-    margin-bottom: 30px;
-	color: white;
-    font-weight: bold;
 
-}
+
+
 .secao2{
     display: flex;
     justify-content: center;
@@ -52,10 +31,10 @@ body{
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
-    color: white;
+    color: bl;
  }
 .menu a:hover{
-        color: yellow;
+        color: rgb(238, 177, 186);
         text-decoration: underline;
     }
 

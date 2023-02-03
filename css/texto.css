@@ -1,0 +1,39 @@
+.titulo-section1 {
+    font-size: 3rem;
+	margin: 15px 0 15px 0;
+    margin-bottom: 30px;
+    
+}
+.texto-basal{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+     
+ }
+ .ptexto{
+     margin-top: 15px;
+     line-height: 1.5;
+ }
+ .ptexto::selection{
+     background-color: rgb(128, 0, 255);
+     color: white;
+ }
+ .ptexto::first-letter{
+     font-size: 3rem;
+     font-weight: 800;
+     color: rgb(128, 0, 255);
+     float: left;
+     line-height: 3rem;
+     margin: 0 5px 0 0;
+ }
+
+ .titulo-section2{
+    font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 30px;
+	color: white;
+    font-weight: bold;
+
+}

@@ -16,7 +16,7 @@ const calcIMC = () => {
       
 
       
-      resultado.innerHTML = `BF: ${bf} (${classification})`
+      resultado.innerHTML = `BF: ${bf.toFixed(2)} (${classification})`
     } else {
       resultado.innerHTML = 'Preencha os campos'
     }
@@ -31,7 +31,7 @@ const calcIMC = () => {
       
 
       
-      resultado.innerHTML = `BF: ${bf} (${classification})`
+      resultado.innerHTML = `BF: ${bf.toFixed(2)} (${classification})`
     } else {
       resultado.innerHTML = 'Preencha os campos'
     }

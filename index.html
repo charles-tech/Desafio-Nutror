@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/calculadora.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/texto.css">
+    <title>Calculando Saúde</title>
 </head>
 <body>
 <header class="cabecalho">
@@ -16,8 +17,8 @@
     <div>
          <nav class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="#cbasal">Taxa metabólica basal </a></li>
+                <li><a href="#">Calculadora IMC</a></li>
             </ul>
         </nav>
     </div>
@@ -27,12 +28,11 @@
     <main class="principal">
         <section class="secao1">
 
-            <h1 class=" titulo-section1">
-                O que é Gasto Energético Basal
-            </h1>
+            
 
             <div class="texto-basal">
-                <p>A princípio vamos entender melhor o que é o Gasto Energético Basal (GEB), ou Taxa Metabólica Basal  (TMB) como também é chamado. Nada mais é que a quantidade mínima de energia (em kcal) necessária para que nosso corpo mantenha seus  processos vitais em funcionamento, como a respiração, a circulação, o metabolismo celular e a conservação de temperatura corporal. 
+              <h1 class="titulo-section1">O que é Gasto Energético Basal</h1>
+                <p class="ptexto">A princípio vamos entender melhor o que é o Gasto Energético Basal (GEB), ou Taxa Metabólica Basal  (TMB) como também é chamado. Nada mais é que a quantidade mínima de energia (em kcal) necessária para que nosso corpo mantenha seus  processos vitais em funcionamento, como a respiração, a circulação, o metabolismo celular e a conservação de temperatura corporal. 
 
                     Esse gasto corresponde a aproximadamente 60 a 75% do gasto energético diário total. O restante refere-se ao gasto vindo do efeito térmico do exercício físico, o efeito térmico dos alimentos que consumimos e da termogênese facultativa (adaptações às variações de temperatura que podem modificar o gasto energético).
                     
@@ -46,7 +46,7 @@
 
               
 
-                     <h1 class=" titulo-section2">
+                     <h1 id="cbasal" class=" titulo-section2">
                           Calculadora de GEB 
                      </h1>
                     
@@ -63,10 +63,11 @@
     
                     
 
-                     <div class="divAltura">
+                      <div class="divAltura">
                         <label for="altura">Altura (M)</label>
                         <input type="number" id="altura" />
                       </div>
+
                       <div class="divPeso">
                         <label for="peso">Peso (KG)</label>
                         <input type="number" id="peso" />
@@ -86,6 +87,8 @@
 
             </div>
         </section>
+
+        
             
 
 
