@@ -1,0 +1,26 @@
+body{
+    background: black;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 300%;
+    background-color: aqua;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+label, p{
+    color: white;
+}
+.div1{
+    background: red;
+}
+.div2{
+    background: yellow;
+}
+.div3{
+    background-color: green;
+}
